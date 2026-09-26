@@ -369,10 +369,12 @@ async function setupServer() {
       res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
     });
   }
-
+}
+export { app };
+ if (!process.env.VERCEL) {
   app.listen(PORT, () => {
     console.log(`SYASA Server is active on port ${PORT}`);
   });
-}
 
-setupServer();
+  setupServer();
+}
