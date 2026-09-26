@@ -1,0 +1,6 @@
+{
+  "name": "SYASA — Syamanah Sales Assistant",
+  "description": "AI Sales & Customer Service Automation for Syamanah Garment (CV. Generasi Sugih Sejahtera) — Lead Qualification, Routing & Human Handover",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
